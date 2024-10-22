@@ -1,0 +1,50 @@
+button {
+	align-items: center;
+	cursor: pointer;
+	padding: 20px;
+	display: flex;
+}
+
+/* Primary */
+.primary {
+	border: none;
+	border-radius: 30px;
+	background-color: #D19DF0;
+	font-weight: 700;
+}
+
+.primary:hover {
+	background-color: #D8ADF2;
+}
+
+.primary:active {
+	background-color: #AE71D3;
+}
+
+.primary:focus {
+	border: 3px solid #9358B7;
+}
+
+.primary:disabled {
+	background-color: #EAD9F4;
+}
+
+.small {
+	font-size: 14px;
+	padding: 20px 14px;
+}
+
+.large {
+	font-size: 16px;
+	padding: 20px;
+}
+
+/* Secondary */
+.secondary {
+	background-color: #ffffff;
+}
+
+/* Tertiary */
+.tertiary {
+	background-color: transparent;
+}
